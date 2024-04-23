@@ -5,6 +5,6 @@
 
 
 fn main() {
-    const NUMBER = 3;
+    const NUMBER: i32 = 3;
     println!("Number {}", NUMBER);
 }
