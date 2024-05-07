@@ -61,8 +61,8 @@ impl From<&str> for Person {
 		None    => return Person::default(),
 	    };
 	    match parts.next() {
-		None    => Ok(Person{name, age}),
-		Some(_) => return Person::default(),
+		None    => return Ok(Person{name, age}),
+		Some(_) => return Err()
 
 	    }
 
